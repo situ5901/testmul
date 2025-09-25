@@ -30,6 +30,6 @@ app.post("/upload", upload.single("docImage"), (req, res) => {
     return res.redirect("/");
 });
 
-app.listen(3050, () => {
+app.listen(3000, () => {
     console.log("Server running at http://localhost:3000");
 });
